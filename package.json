@@ -12,6 +12,12 @@
     "jobvite",
     "api"
   ],
+  "dependencies": {
+    "swiz": "*"
+    , "request": "*"
+    , "xtend": "*"
+    , "moment": "*"
+  }
   "author": "Mike Fair <mike@biblesforisrael.com>",
   "license": "BSD"
 }
