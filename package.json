@@ -1,0 +1,17 @@
+{
+  "name": "node-jobvite",
+  "version": "0.0.1",
+  "description": "A node library to access the jobvite api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "nodejs",
+    "jobvite",
+    "api"
+  ],
+  "author": "Mike Fair <mike@biblesforisrael.com>",
+  "license": "BSD"
+}
