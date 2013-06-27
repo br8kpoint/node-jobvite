@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Results xmlns="http://api.jobvite.com/action/api/v1" action="getCandidates" version="1.0">
+	<Candidates xmlns="http://api.jobvite.com/action/api/v1" first="1" count="2" total="2" >
+		<ns:Candidate xmlns:ns="http://ns.hr-xml.org/2007-04-15">
+			<ns:CandidateRecordInfo>
+				<ns:Id idOwner="Jobvite">
+					<ns:IdValue name="applicationId">2123</ns:IdValue>
+				</ns:Id>
+				<ns:Status>New</ns:Status>
+			</ns:CandidateRecordInfo>
+			<ns:RelatedPositionPostings>
+				<ns:PositionPosting>
+					<ns:Id idOwner="Jobvite">
+						<ns:IdValue name="requisitionId">20081023</ns:IdValue>
+					</ns:Id>
+					<ns:Title>Accountant</ns:Title>
+				</ns:PositionPosting>
+			</ns:RelatedPositionPostings>
+			<ns:CandidateSupplier>
+				<ns:SupplierId idOwner="Jobvite">
+					<ns:IdValue name="sourcedBy">50</ns:IdValue>
+				</ns:SupplierId>
+				<ns:EntityName>Alex Recruiter</ns:EntityName>
+				<ns:SourceType>
+				<ns:NonStandardValue>Agency</ns:NonStandardValue>
+				</ns:SourceType>
+			</ns:CandidateSupplier>
+			<ns:CandidateProfile>
+				<ns:PersonalData>
+					<ns:PersonId idOwner="Jobvite">
+						<ns:IdValue name="candidateId">S123</ns:IdValue>
+					</ns:PersonId>
+					<ns:PersonName>
+						<ns:GivenName>John</ns:GivenName>
+						<ns:FamilyName>Doe</ns:FamilyName>
+					</ns:PersonName>
+					<ns:ContactMethod>
+						<ns:Use>personal</ns:Use>
+						<ns:Location>home</ns:Location>
+						<ns:Telephone>
+							<ns:FormattedNumber>650-555-1212</ns:FormattedNumber>
+						</ns:Telephone>
+						<ns:Mobile>
+							<ns:FormattedNumber>650-555-1212</ns:FormattedNumber>
+						</ns:Mobile>
+						<ns:Fax>
+							<ns:FormattedNumber>415-555-1212</ns:FormattedNumber>
+						</ns:Fax>
+						<ns:InternetEmailAddress>johndoe@candidate1.com</ns:InternetEmailAddress>
+						<ns:PostalAddress>
+							<ns:CountryCode>US</ns:CountryCode>
+							<ns:PostalCode>94118</ns:PostalCode>
+							<ns:Region>CA</ns:Region>
+							<ns:Municipality>San Francisco</ns:Municipality>
+							<ns:DeliveryAddress>
+								<ns:AddressLine>123 Main St.</ns:AddressLine>
+								<ns:AddressLine>2nd Floor</ns:AddressLine>
+							</ns:DeliveryAddress>
+						</ns:PostalAddress>
+					</ns:ContactMethod>
+				</ns:PersonalData>
+			</ns:CandidateProfile>
+			<ns:Resume>
+				<ns:NonXMLResume>
+					<ns:TextResume>
+						John Doe
+						johndoe@candidate1.com
+						415-555-1212
+						This is a really extensive resume for a great candidate. Please hire me!
+					</ns:TextResume>
+				</ns:NonXMLResume>
+			</ns:Resume>
+			<ns:UserArea>
+				<CustomFields xmlns="http://api.jobvite.com/action/api/v1">
+					<Field type="Candidate" name="Candidate Field 1">Some value</Field>
+					<Field type="Candidate" name="Candidate Field 2">Some other value</Field>
+				</CustomFields>
+			</ns:UserArea>
+		</ns:Candidate>
+		<ns:Candidate xmlns:ns="http://ns.hr-xml.org/2007-04-15">
+			<ns:CandidateRecordInfo>
+				<ns:Id idOwner="Jobvite">
+					<ns:IdValue name="applicationId">2123</ns:IdValue>
+				</ns:Id>
+				<ns:Status>New</ns:Status>
+			</ns:CandidateRecordInfo>
+			<ns:RelatedPositionPostings>
+				<ns:PositionPosting>
+					<ns:Id idOwner="Jobvite">
+						<ns:IdValue name="requisitionId">20081023</ns:IdValue>
+					</ns:Id>
+					<ns:Title>Accountant</ns:Title>
+				</ns:PositionPosting>
+			</ns:RelatedPositionPostings>
+			<ns:CandidateSupplier>
+				<ns:SupplierId idOwner="Jobvite">
+					<ns:IdValue name="sourcedBy">511</ns:IdValue>
+				</ns:SupplierId>
+				<ns:EntityName>Alex Recruiter</ns:EntityName>
+				<ns:SourceType>
+					<ns:NonStandardValue>Employee</ns:NonStandardValue>
+				</ns:SourceType>
+			</ns:CandidateSupplier>
+			<ns:CandidateProfile>
+				<ns:PersonalData>
+					<ns:PersonId idOwner="Jobvite">
+						<ns:IdValue name="candidateId">S234</ns:IdValue>
+					</ns:PersonId>
+					<ns:PersonName>
+						<ns:GivenName>Jane</ns:GivenName>
+						<ns:FamilyName>Doe</ns:FamilyName>
+					</ns:PersonName>
+					<ns:ContactMethod>
+						<ns:Use>personal</ns:Use>
+						<ns:Location>home</ns:Location>
+						<ns:Telephone>
+							<ns:FormattedNumber>650-555-1212</ns:FormattedNumber>
+						</ns:Telephone>
+						<ns:Mobile>
+							<ns:FormattedNumber>650-555-1212</ns:FormattedNumber>
+						</ns:Mobile>
+						<ns:Fax>
+							<ns:FormattedNumber>415-555-1212</ns:FormattedNumber>
+						</ns:Fax>
+						<ns:InternetEmailAddress>jane@candidate1.com</ns:InternetEmailAddress>
+						<ns:PostalAddress>
+							<ns:CountryCode>US</ns:CountryCode>
+							<ns:PostalCode>94118</ns:PostalCode>
+							<ns:Region>CA</ns:Region>
+							<ns:Municipality>San Francisco</ns:Municipality>
+							<ns:DeliveryAddress>
+								<ns:AddressLine>123 Main St.</ns:AddressLine>
+								<ns:AddressLine>2nd Floor</ns:AddressLine>
+							</ns:DeliveryAddress>
+						</ns:PostalAddress>
+					</ns:ContactMethod>
+				</ns:PersonalData>
+			</ns:CandidateProfile>
+			<ns:Resume>
+				<ns:NonXMLResume>
+					<ns:TextResume>
+						Jane Doe
+						jane@candidate1.com
+						408-555-1212
+						I am a great candidate!
+					</ns:TextResume>
+			</ns:NonXMLResume>
+			</ns:Resume>
+			<ns:UserArea>
+				<CustomFields xmlns="http://api.jobvite.com/action/api/v1">
+					<Field type="Candidate" name="Candidate Field 3">Some value</Field>
+				</CustomFields>
+			</ns:UserArea>
+		</ns:Candidate>
+		<ns:Candidate xmlns:ns="http://ns.hr-xml.org/2007-04-15"><ns:CandidateRecordInfo><ns:Id idOwner="Jobvite"><ns:IdValue name="applicationId">pFBa7gwi</ns:IdValue></ns:Id><ns:Status>Step 4 - Online Training</ns:Status></ns:CandidateRecordInfo><ns:RelatedPositionPostings><ns:PositionPosting><ns:Id idOwner="Jobvite"><ns:IdValue name="requisitionId">TM02</ns:IdValue></ns:Id><ns:Title>Messianic Telephone Communicators-Fundraising Representatives &amp; Managers</ns:Title></ns:PositionPosting></ns:RelatedPositionPostings><ns:CandidateSupplier><ns:SupplierId idOwner="Jobvite"><ns:IdValue name="sourcedBy">snV9Vfw6</ns:IdValue></ns:SupplierId><ns:EntityName>BFIWebsite</ns:EntityName><ns:SourceType><ns:NonStandardValue>Job Board</ns:NonStandardValue></ns:SourceType></ns:CandidateSupplier><ns:CandidateProfile><ns:PersonalData><ns:PersonId idOwner="Jobvite"><ns:IdValue name="candidateId">eIlVPfwx</ns:IdValue></ns:PersonId><ns:PersonName><ns:GivenName>Phil</ns:GivenName><ns:FamilyName>Pearlman</ns:FamilyName></ns:PersonName><ns:ContactMethod><ns:Use>personal</ns:Use><ns:Location>home</ns:Location><ns:Telephone><ns:FormattedNumber>360.825.0802</ns:FormattedNumber></ns:Telephone><ns:Mobile><ns:FormattedNumber>253.380.8394</ns:FormattedNumber></ns:Mobile><ns:InternetEmailAddress>phil1147@comcast.net</ns:InternetEmailAddress></ns:ContactMethod></ns:PersonalData></ns:CandidateProfile><ns:Resume><ns:NonXMLResume><ns:TextResume>Phil Pearlman   
+·   Page 2
+Phil Pearlman
+407 Warwick Street  •  Enumclaw, Washington 98022
+phil1147@comcast.net  •  360.825.0802 home  •  253.380.8394 cell
+Regional/Divisional Sales / Operations Manager
+Sales Program Management  /  International Franchise Development  /  Profit Optimization
+Team Leadership  /  Market Research and Analysis  /  Music Artist Promotion /Territory Management / Purchasing
+Seasoned and inspirational executive manager expertly conceptualizing, creating, and implementing strategic business plans built to empower teams toward delivering record-setting performance and sales results. Motivational leader with visionary outlook leveraged to cultivate strategic B2B partnerships that capitalize upon high-impact product development and market launches within highly competitive industries. 
+Track record of excellence across hands-on and comprehensive coordinator roles paired with a savvy approach to budgets, logistics, and resource allocation; effectively control cost and maximize team performance. Multifaceted experience across sales and marketing. Strong interpersonal communicator building consensus across team lines. 
+Operations and Sales Strengths: 
+Profit Planning and Optimization
+Cost Control and Reduction
+Performance Management 
+B2B and B2C Relationship Cultivation 
+Team Building and Leadership
+Strategic Market Planning
+Cross-departmental Coordination 
+Profitability Objective Implementation
+Regional Operations Administration 
+Revenue Growth and Goal Attainment
+Professional Experience
+MessianicMusic.com                                                                                                                                          1999 – Present
+President / Owner 
+Owner of Messianic website. Review and promotion of aspiring Messianic music artist’s CD’s located world-wide to believers nationally and internationally.  Successful exposure of artist’s offerings of Messianic music.
+Nitehawk Sweepers-Kent, WA                                                                                                                    9/2012 to 3/2013
+Purchasing Manager-
+Responsible for the procurement and stocking of sweeper truck parts. In charge of shipping and receiving, as well as inventory control. Keeping active relationships with vendors of over 2000 sweeper parts. Shipping parts of sweeper trucks to clients located world-wide. Organization of inventory throughout manufacturing facility.
+Art Gamblin Motors – Enumclaw, WA                                                                                                    12/2011 to 7/2012
+Sales Consultant- 
+Responsible for sales of new and used vehicles. Strategically remaining in contact with prospects and existing customers in order to establish and maintain repeat vehicle purchases.
+
+O.B. Williams Company – Seattle, WA                                                                                                    8/ 2010 to 11/2011
+Business Development Manager-
+
+Branded high end custom architectural woodwork services to over 300 local architectural firms. Marketed company to local contractors in order to keep the pipeline of bid opportunities filled. Promoted company to contractors and architects in other regions of the country in order to receive invitations to bid projects. Motivated sales staff.
+
+Lone Star Stone, Inc. – Whitney, Tx                                                                                            2009 to 2010  
+Business Development Officer -
+
+Chief of Operations, overseeing Manufacturing and Sales. Responsible to create, implement and successfully employ a new business model in order to expand company sales. Enhanced and expanded product name brand. Strengthened relationships with existing Distributor Partners. Improved overall operations of the company. Business Development Officer
+Eldorado Stone – Carnation, Wa                                                                                                                   1990 to 2008
+
+Sales Manager, Western Region (2005-2008)
+ Recognized for exceptional contributions through promotions to positions of increasing scope and responsibility to manage 4 regional sales teams delivering $100,000,000 yearly revenues for the world’s largest manufacturer of architectural stone veneer. 
+
+Regional Operations Manager, Northwest Region (2002-2005)
+
+Selected to serve on senior management team to conceptualize, create, and implement strategic sales and business develop plans to sustain strong revenue growth and continued profitability. Motivate and mentor sales representatives to build solid client base and exceed sales goals. Served as key contact for largest North American Distributor account. Previously tasked with coordinating regional manufacturing and distribution for Northwestern region spanning the US and Canada. Oversaw 275 regional team members across customer service, sales, and operations departments; identified and communicated performance metrics while mentoring staff. Led team meetings to convey objectives; tracked and reported sales and marketing campaign results.  
+Selected Contributions:
+Demonstrated exceptional business savvy and team leadership talents to sustain continuous revenue increases of 30% to 40% yearly growth over span of 4 years.
+Skillfully fostered effective, strong cross-departmental communications across Sales, Customer Service, and Manufacturing departments that supported team performance and collaborative group efforts. 
+
+
+
+
+
+
+National Marketing Coordinator (2000-2002)
+
+Managed multiple facets of marketing via the National Sales Support Center. Coordinated team members and marketing programs to build and expand national brand image for company products. Created high impact campaigns designed to cultivate architectural sales leads; supported sales representatives in building lucrative client account base. Responsible for overseeing company's National Literature Fulfillment Department, providing specialized product educational materials and marketing collateral.
+Selected Contributions:
+Enhanced company-wide revenue and expanded industry presence through developing strategic B2B partnership with construction leader, Dodge McGraw Hill. 
+Successfully cultivated ~200 pre-qualified architectural leads per month for sales teams across the US.Vice President, Franchise Growth (1990-2000) 
+
+Selected to integrate vital company growth plans across manufacturing franchise facilities; tasked with coordinating launch of 16 additional manufacturing locations. Managed all aspects of franchise business development and growth including strategic planning, budget coordination, market research, performance analysis, and team management. Trained and mentored new franchise owners located world-wide. Tasked with managing National Trade Show program including overseeing teams responsible for venue management, vendor sourcing, marketing, PR, and resource allocation.
+Selected Contributions:
+Triggered company growth, strategically placing franchises across key US regions and numerous international locations to expand brand worldwide.
+Education and Credentials - Bachelor of Music Education Degree  
+·  Bradley University – Peoria, Illinois
+
+Dave Gnotta
+Business Development Mgr.
+T 509.435.1009
+F 509.891.9170
+dgnotta@eldoradostone.com
+www.eldoradostone.com
+
+
+
+Letter of Recommendation- Phil Pearlman Date 4/7/09
+To Whom It May Concern,
+The intent of this letter is to reflect on Phil Pearlman’s tenure with Eldorado Stone and the contributions he has made to our
+success.
+It should be pointed out that at the time Phil joined Eldorado Stone, it was in fact, a small business trying to grow into a large
+one via a franchise system. Phil Pearlman was in charge of Eldorado Stone’s franchise efforts and set up most of the
+successful franchises for the company.
+As Eldorado Stone grew it eventually moved away from the franchise model and became a manufacturer selling through a
+system of distributors. Again, Phil Pearlman was very instrumental in establishing many of our most successful distributors,
+including our current largest account.
+As a Sales Manager Phil stands out as an excellent team builder. He takes the time to listen to those in his charge and then
+help them develop win-win solutions to the greatest extent possible within the circumstances at hand. He is both mentor and
+motivator.
+While Phil is a realist and keeps his feet on the ground … he has a special gift for approaching each day with an upbeat
+attitude that spreads among his team.
+On a personal note … I have told Phil several times that my years working together with him have been the best I have
+enjoyed throughout my 30 year career. I mean every word of that.
+Phil’s vast range of experience would make him an amazing asset to any company that should choose to employ him.
+If you would like to discuss any aspect of Phil’s abilities or qualifications, please feel free to call me directly.
+Sincerely,
+Dave Gnotta
+Dave Gnotta
+Business Development Mgr.
+T 509.435.1009
+F 509.891.9170
+dgnotta@eldoradostone.com
+www.eldoradostone.com
+
+
+                                                                                                                                                                            I-XL Masonry Supplies Ltd.
+Sales and Marketing Department
+3651 East 1st Avenue
+Vancouver, B.C.
+V5M 1C2, Canada
+Tel. (604) 421 - 6241
+Fax (604) 419 - 0971
+
+
+
+
+
+April 7, 2009
+
+
+To Whom It May Concern:  
+
+Re:  Phil Pearlman
+
+I have known Phil Pearlman since 2001 when I-XL opened its first distribution branch in the USA after operating in Canada for over 90 years.  Phil was the Territorial Manager for Eldorado Stone Inc and was the key contact for I-XL with the Eldorado Stone during the start-up of this new U.S. division.  Our decision to enter the US market was predicated, in large part, on the commitments made to I-XL by Phil Pearlman and Eldorado Stone.  As a ‘green field’ start up we were new to the market and the assistance we received from Phil was critical to our success.  Phil helped us with introductions to potential customers, advice on inventory, advice on sales initiatives, staff training, and much more.  With Phil’s assistance we quickly grew into a successful player in the US Pacific Northwest market eventually expanding to three successful U.S. branches with Phil’s direct help.  Phil’s assistance in helping us meet our commitments meant Eldorado could fulfil their commitments to I-XL thus building the most close, trusting, and successful of relationships.
+
+Our success with Eldorado Stone in the US led us to the logical step of offering the line in our Canadian Branches.  Circumstances made the adoption of Eldorado Stone in Canada somewhat of a risk for I-XL.  Phil’s proven record of following through on commitments made to us in the U.S. gave us the comfort to go forward in Canada with great success.  Phil was truly untiring is his support of our efforts through sales blitzes, ramping up the Eldorado end of the supply chain, and simply supporting our efforts in his untiring and positive manner.  Our success is due in very large part to Phil’s input and leadership.              
+
+I would often call upon Phil to seek out his opinion on various topics to assist me in making business decisions.  I trust and respect Phil’s opinions and found his advice always to be sound and of value.      
+
+Phil’s sales, management, and people skills are top drawer as are his instincts.  Phil’s genuine positive approach to everything he does gathers people to him.  I recommend Phil highly.          
+
+Yours truly, 
+
+
+
+Robert C Proctor
+Sales and Marketing Manager
+I-XL Masonry Supplies Ltd
+604-318-9312</ns:TextResume></ns:NonXMLResume></ns:Resume><ns:UserArea><CustomFields xmlns="http://api.jobvite.com/action/api/v1"><Field type="Candidate" name="Candidate Cover Letter">PHIL PEARLMAN
+407 Warwick Street  •  Enumclaw, Washington 98022
+phil1147@comcast.net  •  360.825.0802 home  •  253.380.8394 cell
+
+
+April 7, 2013
+
+
+The Messianic Jewish Bible Society
+Bibles for Israel
+Tiberias, Israel
+Attention: Rachel Rozenstein – Director of Human Resources
+Re: Messianic Telephone Communications / Management
+
+Dear Rachel,
+
+I am very interested in serving in the capacity of Messianic Telephone Communications. I have been a Jewish Messianic Believer since 1987, and I love our Lord Yeshua! I have served as a worship leader of various Messianic Congregations over the years in the US, both on the East and West Coast. Since 1999, I have served as the proprietor of the website, MessianicMusic.com. I assist aspiring Messianic music artists by promoting their musical offerings to believers located world-wide. 
+
+I have attached my resume, which displays years of sales and operations management in other positions as well, which I believe will be an asset to this wonderful cause.
+
+I look forward to hearing from you, and to serving Yeshua in this capacity.
+
+Sincere Blessings in Yeshua,
+Phil Pearlman
+
+Enclosure
+</Field></CustomFields></ns:UserArea></ns:Candidate>
+	</Candidates>
+</Results>

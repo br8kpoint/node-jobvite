@@ -1,0 +1,20 @@
+<server id="15245" name="server #1">
+	<is_active>true</is_active>
+	<agent_name>some agent</agent_name>
+	<public_ips>
+		<ip>123.45.55.44</ip>
+		<ip>122.123.32.2</ip>
+	</public_ips>
+	<state>active</state>
+	<opts>
+		<serverOpts>
+			<option1>defaultval</option1>
+			<option2>defaultval</option2>
+			<option3>something</option3>
+		</serverOpts>
+	</opts>
+	<data>
+		<foo>thingone</foo>
+		<bar>thingtwo</bar>
+	</data>
+</server>

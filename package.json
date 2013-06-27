@@ -17,6 +17,8 @@
     , "request": "*"
     , "xtend": "*"
     , "moment": "*"
+    , "xml2js": "*"
+    , "eyes" : "*"
   },
   "author": "Mike Fair <mike@biblesforisrael.com>",
   "license": "BSD"
